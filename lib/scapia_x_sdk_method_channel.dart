@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'scapia_X_sdk_platform_interface.dart';
+import 'scapia_x_sdk_platform_interface.dart';
 
 /// An implementation of [ScapiaXSdkPlatform] that uses method channels.
 class MethodChannelScapiaXSdk extends ScapiaXSdkPlatform {
