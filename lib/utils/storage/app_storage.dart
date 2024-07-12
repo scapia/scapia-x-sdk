@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:bank_base_sdk/bank_base_sdk.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get_secure_storage/get_secure_storage.dart';
 import 'package:shared_preferences_plus/shared_preferences_plus.dart';
@@ -9,7 +8,7 @@ abstract class AppStorage {
   static final Map<String, AppGetSecureStorage?> _getSecuredInstanceMap = {};
 
   factory AppStorage.storage([String? id]) {
-    final containerId = id ?? kDefaultStorageContainerId;
+    final containerId = id ?? "GetSecureStorage";
 
     if (_getSecuredInstanceMap.containsKey(containerId) &&
         _getSecuredInstanceMap[containerId] != null) {

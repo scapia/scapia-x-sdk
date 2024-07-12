@@ -1,4 +1,4 @@
-import 'scapia_X_sdk_platform_interface.dart';
+import 'scapia_x_sdk_platform_interface.dart';
 
 class ScapiaXSdk {
   Future<String?> getPlatformVersion() {

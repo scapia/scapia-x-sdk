@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:scapia_x_sdk/scapia_x_sdk.dart';
-import 'package:scapia_x_sdk/scapia_X_sdk_platform_interface.dart';
+import 'package:scapia_x_sdk/scapia_x_sdk_platform_interface.dart';
 import 'package:scapia_x_sdk/scapia_x_sdk_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
