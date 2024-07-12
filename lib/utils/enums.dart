@@ -1,0 +1,4 @@
+enum BankEventType {
+  triggerOnboarding,
+  refreshCardHome,
+}

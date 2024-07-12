@@ -1,0 +1,5 @@
+class RemoteConfigRepo {
+  RemoteConfigRepo._();
+
+
+}

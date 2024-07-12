@@ -1,0 +1,11 @@
+const String kStorageContainerId = "GetSecureStorage";
+const String kStoragePasswordKey = "GET_SECURE_STORAGE_PASSWORD";
+const String kProduction = "production";
+const String kSandbox = "sandbox";
+const String kSandboxBaseUrl = 'https://cards-sandboxapi.scapia.in';
+const String kM2PUatBaseUrl = 'https://Xeral-scapia-uat.m2pfintech.com';
+const String kProductionBaseUrl = 'https://Xeral-scapia.m2pfintech.com';
+const kAPIStatusCode = "status_code";
+const kSomethingWentWrong = "Something went wrong!";
+const String kBearer = 'Bearer';
+const String kAuthorization = "Authorization";
