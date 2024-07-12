@@ -12,4 +12,7 @@ class StringResources extends BaseStringResources {
   @override
   String get kReviewCreditLimitConsent =>
       "I hereby grant X bank to access my credit information report from bureau for the purpose of credit limit assessment";
+  @override
+  String get prelimFinalCheck =>
+      '''Are you sure you have an existing X Bank credit card or a co-branded X Bank credit card? Confirm this with us one last time''';
 }

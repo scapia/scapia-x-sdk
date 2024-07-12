@@ -1,3 +1,4 @@
+import 'package:bank_base_sdk/bank_base_sdk.dart';
 import 'package:bank_base_sdk/card_onboarding/data_flow/interfaces/onboarding_data_flow.interface.dart';
 import 'package:bank_base_sdk/card_onboarding/models/onboarding_request_response.model.dart';
 import 'package:bank_base_sdk/utils/enums/page_id.dart';
@@ -30,7 +31,9 @@ class OnboardingDataFlowController extends OnboardingDataFlowInterface
         Get.offAllNamed(
           Routes.applicationEntry,
           arguments: {
-            "dob": response.customerDob ?? '',
+            "dob": DateTimeUtils.getFormattedDobForRequest(
+              response.customerDob ?? '',
+            ),
             "nameOnPan": response.nameOnPan ?? '',
           },
         );

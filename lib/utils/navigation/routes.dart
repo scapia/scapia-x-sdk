@@ -10,13 +10,13 @@ import 'package:scapia_x_sdk/src/card_onboarding/stage1/pan_verification/view/on
 
 class Routes {
   Routes._();
-
+  static const packageName = "scapia-x-sdk";
   static const _transition = Transition.rightToLeft;
-  static const String handoff = '/handoff';
-  static const String prelimCheck = '/prelimCheck';
-  static const String applicationEntry = '/applicationEntry';
-  static const String panInput = '/panInput';
-  static const String panVerified = '/panVerified';
+  static const String handoff = '/$packageName-handoff';
+  static const String prelimCheck = '/$packageName-prelimCheck';
+  static const String applicationEntry = '/$packageName-applicationEntry';
+  static const String panInput = '/$packageName-panInput';
+  static const String panVerified = '/$packageName-panVerified';
 
   static final pages = <GetPage>[
     GetPage(
