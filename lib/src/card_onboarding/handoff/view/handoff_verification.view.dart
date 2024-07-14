@@ -12,7 +12,7 @@ class HandoffVerification extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HandoffVerificationScreen(
+    return HandoffVerificationTemplate(
       handoffVerificationInterface: HandoffVerificationController(
         handOffVerificationRequest: handOffVerificationRequest,
       ),

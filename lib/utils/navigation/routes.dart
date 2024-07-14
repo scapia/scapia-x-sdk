@@ -45,7 +45,11 @@ class Routes {
         if (dob is String && nameOnPan is String) {
           var stage1Bloc = GetIt.instance.registerSingleton(Stage1Bloc());
           stage1Bloc.add(
-            Stage1DobUpdateEvent(dob: dob),
+            Stage1DobUpdateEvent(
+              dob: DateTimeUtils.getFormattedDobForRequest(
+                dob,
+              ),
+            ),
           );
           stage1Bloc.add(
             Stage1PanNameUpdateEvent(panName: nameOnPan),

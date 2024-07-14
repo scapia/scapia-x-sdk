@@ -13,7 +13,7 @@ class OnboardingPanVerification extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OnboardingPanVerifiedScreen(
+    return OnboardingPanVerifiedTemplate(
       panVerificationInterface: OnboardingPanVerificationController(),
       editPanBottomSheetInterface: OnboardingEditPanBottomSheetController(),
       response: response,

@@ -7,7 +7,7 @@ class OnboardingPrelimCheckView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OnboardingPreliminaryCheckScreen(
+    return OnboardingPreliminaryCheckTemplate(
       onboardingPrelimCheckInterface: OnboardingPrelimCheckController(),
     );
   }

@@ -7,7 +7,7 @@ class Stage1LandingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stage1LandingScreen(
+    return Stage1LandingTemplate(
       stage1landingInterface: Stage1LandingController(),
     );
   }
